@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Твой уровень кибербезопасности</title>
+    <link rel="stylesheet" href="r.css">
+</head>
+<body> 
+    <div class="container">
+        <h1>Твой уровень кибербезопасности: Проверь себя!</h1>
+        <p>Привет! Этот короткий опрос поможет тебе оценить, насколько ты разбираешься в кибербезопасности. Не волнуйся, здесь нет правильных или неправильных ответов. Просто отвечай честно, как ты думаешь. Результат поможет тебе понять, какие темы стоит изучить подробнее. Начнём?</p>
+
+        <form id="quiz-form">
+            <div class="question" data-question-id="1">
+                <p>1. Пароль пользователя должен... </p>
+                <label><input type="radio" name="q1" value="a"> a) содержать только цифры</label><br>
+                <label><input type="radio" name="q1" value="b"> b) иметь явную привязку к владельцу, чтобы не забыть пароль (его имя, дата рождения, номер телефона и т.п.)</label><br>
+                <label><input type="radio" name="q1" value="c"> c) содержать цифры и буквы, знаки препинания и быть сложным для угадывания</label><br>
+            </div>
+
+           <div class="question" data-question-id="2">
+                <p>2. Почтовый ящик современного человека завален входящими сообщениями, среди которых попадаются опасные письма. Как называют рассылку писем, сфабрикованных под видом разных форм общественной деятельности для получения конфиденциальной информации?</p>
+                <label><input type="radio" name="q2" value="a"> a) Мистификация</label><br>
+                <label><input type="radio" name="q2" value="b"> b) Стримминг</label><br>
+                <label><input type="radio" name="q2" value="c"> c) Фишинг</label><br>
+            </div>
+             <div class="question" data-question-id="3">
+                <p>3. Электронно-цифровая подпись – это…</p>
+                <label><input type="radio" name="q3" value="a"> a) реквизит электронного документа, предназначенный для защиты данного документа от подделки, позволяющий идентифицировать владельца, а также установить отсутствие искажения информации в электронном документе</label><br>
+                 <label><input type="radio" name="q3" value="b"> b) отсканированная подпись руководителя организации и помещенная в электронный документ для заверения подлинности данного документа</label><br>
+                <label><input type="radio" name="q3" value="c"> c) такой подписи не бывает т.к. подлинность документа заверяется личной подписью руководителя организации и печатью</label><br>
+            </div>
+           <div class="question" data-question-id="4">
+                <p>4. Ответственность за защищенность данных в компьютерной сети несет:</p>
+                 <label><input type="radio" name="q4" value="a"> a) Владелец сети</label><br>
+                 <label><input type="radio" name="q4" value="b"> b) Администратор сети</label><br>
+                 <label><input type="radio" name="q4" value="c"> c) Пользователь сети</label><br>
+            </div>
+            <div class="question" data-question-id="5">
+                <p>5. Процедура проверки соответствия субъекта и того, за кого он пытается себя выдать, с помощью некой уникальной информации - это...</p>
+                 <label><input type="radio" name="q5" value="a"> a) Авторизация</label><br>
+                  <label><input type="radio" name="q5" value="b"> b) Идентификация</label><br>
+                 <label><input type="radio" name="q5" value="c"> c) Деперсонализация</label><br>
+                 <label><input type="radio" name="q5" value="d"> d) Аутентификация</label><br>
+            </div>
+
+            <div class="question" data-question-id="6">
+                <p>6. Таргетированная атака - это ...</p>
+                <label><input type="radio" name="q6" value="a"> a) Атака на конкретный компьютер пользователя</label><br>
+                <label><input type="radio" name="q6" value="b"> b) Атака на сетевое оборудование</label><br>
+                <label><input type="radio" name="q6" value="c"> c) Атака на компьютерную систему крупного предприятия</label><br>
+            </div>
+            <div class="question" data-question-id="7">
+                <p>7. Основная масса угроз информационной безопасности приходится на ...</p>
+                <label><input type="radio" name="q7" value="a"> a) Черви</label><br>
+                <label><input type="radio" name="q7" value="b"> b) Троянские программы</label><br>
+                <label><input type="radio" name="q7" value="c"> c) Шпионские программы</label><br>
+            </div>
+              <div class="question" data-question-id="8">
+                <p>8. Под какие системы распространение вирусов происходит наиболее динамично?</p>
+                <label><input type="radio" name="q8" value="a"> a) Mac OS</label><br>
+                <label><input type="radio" name="q8" value="b"> b) Windows</label><br>
+                <label><input type="radio" name="q8" value="c"> c) Android</label><br>
+            </div>
+             <div class="question" data-question-id="9">
+                <p>9. Понятие кибербезопасности включает в себя заботу о сохранности не только данных, но и душевного спокойствия пользователя интернета. Однако пока слабо развита защита от этой формы социальной провокации в сетевом общении. О чем идет речь?</p>
+                 <label><input type="radio" name="q9" value="a"> a) Хактивизм</label><br>
+                 <label><input type="radio" name="q9" value="b"> b) Троллинг</label><br>
+                <label><input type="radio" name="q9" value="c"> c) Блогинг</label><br>
+            </div>
+             <div class="question" data-question-id="10">
+                <p>10. Основные объекты информационной безопасности:</p>
+                <label><input type="radio" name="q10" value="a"> a) Информационные системы, психологическое состояние пользователей</label><br>
+                <label><input type="radio" name="q10" value="b"> b) Компьютерные сети, базы данных</label><br>
+                <label><input type="radio" name="q10" value="c"> c) Бизнес-ориентированные, коммерческие системы</label><br>
+            </div>
+
+            <button type="submit" class="submit-button">Узнать результат</button>
+        </form>
+          <div id="result-container" style="display:none;">
+            <h2>Твой результат!</h2>
+            <div id="score-message"></div>
+            <div id="answer-explanations"></div>
+            <button href="/" class="try-again-button">Пройти заново</button>
+            <a href="file:///D:/vs%20code/rr/a.html" class="buttonns">Опрос по тесту</a>
+        </div>
+    </div>
+    <script src="r.js"></script>
+</body>
+</html>
